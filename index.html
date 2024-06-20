@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple E-Commerce App 🛒</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/7454466102.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header class="section-header">
+      <div class="container">
+        <p class="logo">My E-Commerce</p>
+        <div class="left-content">
+          <form class="search-container">
+            <input
+              class="search-inpt hidden"
+              type="text"
+              placeholder="Search your product here..."
+            />
+            <button class="search-btn" type="'submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <button class="category-btn">Categories</button>
+        </div>
+      </div>
+    </header>
+    <nav class="nav display-hidden">
+      <ul class="navbar-menu">
+        <!-- <li><a class="category" href="#">Groceries</a></li> -->
+      </ul>
+    </nav>
+
+    <div class="flex-container">
+      <section class="Section-sidebar">
+        <div class="aside-container">
+          <ul class="search-results scroll">
+            <div class="spinner-container spinner-display">
+              <img
+                src="./assets/icon.svg"
+                alt="Load spinner"
+                class="spinner-image"
+              />
+            </div>
+
+            <!-- <li class="result-item">
+              <div class="product-content">
+                <div class="item-img">
+                  <img
+                    src="https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+                    alt="Item-Thumbnail"
+                  />
+                </div>
+                <div class="middle-content">
+                  <h4>Essence Mascara Lash Princess</h4>
+                  <p class="sub-heading">Category</p>
+                  <p>
+                    <span class="old-price">$7.99</span>
+                    <span class="new-price">$9.99</span>
+                  </p>
+                </div>
+              </div>
+              <div class="rating-content">
+                <i class="fa-solid fa-star"></i>
+                <span>3.5</span>
+              </div>
+            </li> -->
+          </ul>
+          <div class="sort-btn">
+            <button>Sort <i class="fa-solid fa-arrow-down-a-z"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-product">
+        <div class="product-container">
+          <p class="placeholder-text">Click any Product for more details 😀</p>
+
+          <!-- <div class="product-img">
+            <img
+              src="https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+              alt="Product-Image"
+            />
+          </div>
+
+          <div class="product-heading">
+            <h3 class="product-title">Essence Mascara Lash Princess</h3>
+            <p>
+              <span class="old-price">$7.99</span>
+              <span class="new-price">$9.99</span>
+            </p>
+          </div>
+
+          <p class="product-description">
+            The Essence Mascara Lash Princess is a popular mascara known for its
+            volumizing and lengthening effects. Achieve dramatic lashes with
+            this long-lasting and cruelty-free formula.", "category": "beauty",
+            "price": 9.99,
+          </p>
+
+          <div class="product-details">
+            <div class="brands">
+              <p class="brand-type">Brand: <span>Essence </span></p>
+              <p class="shipping-time">ships in <span>1 month</span></p>
+            </div>
+
+            <div class="ratings-container">
+              <ul class="ratings">
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+              </ul>
+              <div class="tag-btns">
+                <button class="tag-btn">beauty</button>
+                <button class="tag-btn">beauty</button>
+              </div>
+            </div>
+          </div>  -->
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
